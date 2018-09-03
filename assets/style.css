@@ -50,7 +50,19 @@ main {
     z-index: 0;
     background-color: #ffffff;
     min-height: 100vh;
+    transition: transform 0.5s;
 }
+
+main.open {
+    transform: translate(240px, 0);
+}
+
+/* a.toggle-nav img {
+    width: 20px;
+    height: 20px;
+} */
+
+
 
 /* main {
     position: fixed;
